@@ -1,0 +1,11 @@
+extends base
+
+block content
+    h2 #{usedMem}
+    canvas(id="memGraph" width="400" height="200")
+
+    script(src="/js/jquery.min.js")
+    script(src="/js/moment.min.js")
+    script(src="/js/Chart.min.js")
+    script(src="/js/memgraph.js")
+        
